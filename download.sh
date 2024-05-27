@@ -5,7 +5,7 @@
 
 set -e
 
-read -p "Enter the URL from email: " PRESIGNED_URL
+read -p "https://download6.llamameta.net/*?Policy=eyJTdGF0ZW1lbnQiOlt7InVuaXF1ZV9oYXNoIjoidWNtaTJ6amFxbDEwaWFjZHFxMGl2ampkIiwiUmVzb3VyY2UiOiJodHRwczpcL1wvZG93bmxvYWQ2LmxsYW1hbWV0YS5uZXRcLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3MTY4NDE0OTJ9fX1dfQ__&Signature=r3fsrOSGO5FYlolA6V3eOjga-j-VAPy1KB9E%7EdFn4VDbXEUZYBfNGPjI25v5KZSrNGH4n4O0kIKUMqE9Ih6pmsYBiRCsi5xwg8m5hS5nj0jyUfTdl31Um4Ilh-gWg49M%7EAT1Z2cytDVIiYjlkXsPXr4zRVK-68gAPo9WnFEwQsJy817WrBKUo43jWfQqe9J9feOK5W8Dw0MmNsiiP5vc2XFFgB1kdFSpGNA6m74rPOni05Sy0cA1w3MkGrpKuFiggAv8YLwZN9InMF03%7Ekb8SlZkMFe78cZmoZesse5kWdj893es0IOGEYxJ0ldPpLkNWsNNu2HxNpmrYL1V73q57w__&Key-Pair-Id=K15QRJLYKIFSLZ&Download-Request-ID=1606792863488248" PRESIGNED_URL
 echo ""
 read -p "Enter the list of models to download without spaces (8B,8B-instruct,70B,70B-instruct), or press Enter for all: " MODEL_SIZE
 TARGET_FOLDER="."             # where all files should end up
